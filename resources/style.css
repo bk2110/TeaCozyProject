@@ -1,0 +1,141 @@
+* {
+	font-family: Helvetica;
+	color: white;
+	opacity: 0.9;
+	background-color: black;
+}
+
+/* Header and Nav bar */
+
+.header {
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	margin-top: 0px;
+
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	width: 400px;
+	margin-top: 30px;
+}
+
+span img {
+	height: 50px;
+	width: 150px;
+}
+
+/* End Header and Nav Bar */
+
+.main {
+	text-align: center;
+}
+
+/* Top third of main section */
+.top {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	width: 1200px;
+	height: 700px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	z-index: 2;
+}
+
+#mission {
+	flex: 1 1 1200px;
+	word-spacing: 2.5px;
+}
+
+/* End top third of main section */
+
+/* Beginning of middle 3rd of page */
+.middle {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.layout {
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.images img {
+	flex: 1 1 auto;
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+}
+
+/* End of middle 3rd of page */
+
+/* Start of bottom third of page */
+/* How do I separate the boxes in the "locations" section so that the background of black is not stretching across all 3 addresses? */
+
+.bottom {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 500px;
+	width: 1200px;
+	margin: auto;
+	margin-top: 40px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.boxes {
+	display: flex;
+	justify-content: center;
+}
+
+#single1, #single2, #single3 {
+	display: inline-flex;
+	justify-content: center;
+	align-content: space-around;
+	flex-direction: column;
+	height: 300px;
+	width: 300px;
+	padding: auto 20px;
+}
+
+#bottom {
+	background-color: transparent;
+}
+
+#bottom h2 {
+	background-color: transparent;
+}
+
+.bottom h2 {
+	margin-top: 85px;
+}
+
+
+.footer {
+	display: block;
+	margin: auto;
+	text-align: center;
+	z-index: 5;
+	height: 200px;
+}
+
+.copyright {
+	display: block;
+	text-align: left;
+	margin-left: 20px;
+	z-index: 6;
+}
