@@ -124,6 +124,9 @@ span img {
 	margin-top: 85px;
 }
 
+#locations {
+	background: transparent;
+}
 
 .footer {
 	display: block;
